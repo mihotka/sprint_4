@@ -19,11 +19,11 @@ public class PraktikumNegativeTest {
     @Parameterized.Parameters
     public static Object[][] PraktikumNegativeTestData() {
         return new Object[][]{
-                 {" Вася Шахтер"},
-                 {"Вася Шахтер "},
+                 {" Вася-Шахтер"},
+                 {"Вася-Шахтер "},
                  {"Ха"},
                  {"Ва Ся Шахтер"},
-                 {"Вячеслав Тимошенкович"},
+                 {"Вячеслав Тимшенкович"},
         };
     }
 
